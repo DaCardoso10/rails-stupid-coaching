@@ -1,0 +1,15 @@
+<div class="container">
+<h1>Stupid Couching</h1>
+
+<div class="pregunta p-2 border-start border-4">
+<h3>Tu pregunta es :</h3>
+<h3><%= @ask %></h3>
+</div>
+<p></p>
+<div class="respuesta bg-warning p-2 text-dark bg-opacity-10 border-start border-4">
+<h3>Respuesta del Couch:</h3>
+<h3><%= @answer %></h3>
+</div>
+
+<%= link_to "Volver a preguntar", ask_path, class: "ask-new-question" %>
+</div>
